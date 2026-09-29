@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+*.log
+*.jsonl
+*.token
+*.secrets*
+.env
+*.env.*
+data/
+state/
+inventory*.json
+copy_plan*.json
+copy_progress*.json
+copy_failures*.json

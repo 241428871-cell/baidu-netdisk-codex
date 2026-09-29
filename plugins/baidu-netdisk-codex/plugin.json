@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "baidu-netdisk-codex",
+  "version": "0.1.0",
+  "description": "Connect Codex to Baidu Netdisk through Baidu's official MCP server.",
+  "author": {
+    "name": "241428871-cell",
+    "url": "https://github.com/241428871-cell"
+  },
+  "homepage": "https://github.com/241428871-cell/baidu-netdisk-codex",
+  "repository": "https://github.com/241428871-cell/baidu-netdisk-codex",
+  "license": "MIT",
+  "keywords": ["baidu-netdisk", "codex", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex 百度网盘",
+        "shortDescription": "通过百度官方 MCP 管理网盘文件。",
+        "longDescription": "在本机保存授权令牌，通过百度官方 MCP 服务列出、搜索、复制和整理网盘文件。",
+        "developerName": "241428871-cell",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/241428871-cell/baidu-netdisk-codex",
+        "defaultPrompt": [
+          "查看我的百度网盘目录。",
+          "把百度网盘中的文件按我的规则复制整理。"
+        ]
+      }
+    }
+  }
+}
